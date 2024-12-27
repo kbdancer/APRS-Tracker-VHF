@@ -10,8 +10,8 @@ TinyGPSPlus gps;
 #define PTT_PIN 8
 
 // APRS settings
-char *comment = (char *)"APRS Tracker for VHF radio, https://github.com/kbdancer/APRS-Tracker-VHF";
-char *callsign = (char *)"BG5UXC";
+char comment[] = "APRS Tracker for VHF radio, https://github.com/kbdancer/APRS-Tracker-VHF";
+char callsign[] = "BG5UXC";
 int SSID = 9;
 
 char last_lat[9] = "0000.00N";
